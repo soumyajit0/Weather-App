@@ -2,7 +2,7 @@
 
 A simple weather application created using HTML, CSS, and JavaScript.
 
-![Weather App Screenshot](screenshot.png)
+![Weather App Screenshot](https://github.com/soumyajit0/Weather-App/blob/main/Screenshot.png)
 
 ## Description
 
