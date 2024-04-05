@@ -1,0 +1,125 @@
+* {
+  padding: 0;
+  margin: 0;
+  font: 16px/1.5 Rubik, Arial;
+}
+
+body {
+  background-color: #132043;
+  padding: 50px 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.weather-card {
+  min-width: 475px;
+  padding: 50px;
+  border-radius: 20px;
+  background: linear-gradient(to bottom, #FF6868, #FFBB64);
+  text-align: start;
+  flex-shrink: 0;
+}
+
+.weather-search {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.weather-search-text {
+  height: 60px;
+  width: 350px;
+  border-radius: 30px;
+  padding: 0 20px;
+  border: 1px none;
+  cursor: pointer;
+  background-color: #ffffff;
+  transition: background-color 0.15s;
+}
+
+.weather-search-text:hover {
+  background-color: #f0f0f0;
+}
+
+.weather-search-text:focus {
+  outline: none;
+}
+
+.weather-search-button {
+  height: 60px;
+  width: 60px;
+  border-radius: 30px;
+  cursor: pointer;
+  border: 1px none;
+  overflow: hidden;
+}
+
+.weather-search-button-img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.weather{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.weather-img {
+  padding-top: 30px;
+  height: 250px;
+  width: 250px;
+  object-fit: cover;
+}
+
+.weather-temperature {
+  font: 700 100px Rubik, Arial;
+  color: white;
+}
+
+.weather-city {
+  font: 400 40px Rubik, Arial;
+  color: white;
+}
+
+.weather-details {
+  padding: 50px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 475px;
+}
+
+.weather-humidity, .weather-wind {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.weather-humidity-details, .weather-wind-details {
+  padding-left: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.weather-humidity-percent, .weather-wind-speed {
+  font: 400 40px Rubik, Arial;
+  color: white;
+}
+
+.weather-humidity-text, .weather-wind-text {
+  font: 400 20px Rubik, Arial;
+  color: white;
+}
+
+.weather-humidity-img, weather-wind-img{
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+}
+
+.weather{
+  display: none;
+}
