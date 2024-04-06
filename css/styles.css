@@ -5,10 +5,13 @@
 }
 
 body {
-  background-color: #132043;
+  /* background-color: #132043; */
+  height: 100vh;
+  background: linear-gradient(to bottom, #77B0AA, #135D66);
   padding: 50px 50px;
   display: flex;
   justify-content: center;
+  overflow: hidden;
 }
 
 .weather-card {
@@ -18,6 +21,7 @@ body {
   background: linear-gradient(to bottom, #FF6868, #FFBB64);
   text-align: start;
   flex-shrink: 0;
+  height: 60px;
 }
 
 .weather-search {
@@ -122,4 +126,12 @@ body {
 
 .weather{
   display: none;
+}
+
+.footer{
+  background-color: #f0f0f0;
+  width: 100%;
+  text-align: center;
+  position: fixed;
+  bottom: 0px;
 }

@@ -40,6 +40,9 @@
       </div>
     </div>
   </div>
+  <div class="footer">
+    Made with ❤️ by <a href="https://www.linkedin.com/in/soumyajitds/">Soumyajit</a>
+  </div>
 </body>
 <script>
   const apiKey="1fd48df6406ed77b78336255ee302afd";
@@ -78,6 +81,7 @@
       weatherIcon.src="images/mist.png";
     }
     document.querySelector('.weather').style.display="flex";
+    document.querySelector('.weather-card').style.height="650px";
   }
   searchButton.addEventListener("click",()=>{
     weatherSearch(searchCity.value);
