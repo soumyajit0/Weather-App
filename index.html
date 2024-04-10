@@ -81,8 +81,14 @@
       weatherIcon.src="images/mist.png";
     }
     document.querySelector('.weather').style.display="flex";
-    document.querySelector('.weather-card').style.height="650px";
+    if (mediaQuery)
+      document.querySelector('.weather-card').style.height="500px";
+    else
+      document.querySelector('.weather-card').style.height="650px";
   }
+
+  const mediaQuery = window.matchMedia('(min-width: 600px)');
+
   searchButton.addEventListener("click",()=>{
     weatherSearch(searchCity.value);
   });
