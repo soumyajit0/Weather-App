@@ -118,7 +118,7 @@ body {
   color: white;
 }
 
-.weather-humidity-img, weather-wind-img{
+.weather-humidity-img, .weather-wind-img{
   height: 50px;
   width: 50px;
   object-fit: cover;
@@ -136,7 +136,7 @@ body {
   bottom: 0px;
 }
 
-@media all and (max-width: 600px){
+@media all and (max-width: 450px){
   body{
     padding: 20px 50px;
   }
@@ -144,7 +144,8 @@ body {
   .weather-card{
     min-width: 0;
     width: 300px;
-    padding: 40px 30px;
+    padding: 30px;
+    height: 40px;
   }
 
   .weather-search-text{
@@ -172,5 +173,10 @@ body {
 
   .weather-details{
     flex-direction: column;
+  }
+
+  .weather-humidity, .weather-wind{
+    width: 280px;
+    justify-content: flex-start;
   }
 }
