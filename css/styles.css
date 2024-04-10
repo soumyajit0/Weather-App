@@ -135,3 +135,38 @@ body {
   position: fixed;
   bottom: 0px;
 }
+
+@media all and (max-width: 600px){
+  .weather-card{
+    min-width: 0;
+    width: 300px;
+    padding: 40px 30px;
+  }
+
+  .weather-search-text{
+    height: 40px;
+    width: 200px;
+  }
+
+  .weather-search-button{
+    height: 40px;
+    width: 40px;
+  }
+
+  .weather-img{
+    height: 100px;
+    width: 100px;
+  }
+
+  .weather-temperature{
+    font-size: 80px;
+  }
+
+  .weather-city{
+    font-size: 30px;
+  }
+
+  .weather-details{
+    flex-direction: column;
+  }
+}
